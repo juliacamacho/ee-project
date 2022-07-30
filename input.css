@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    font-family: 'League Spartan', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
