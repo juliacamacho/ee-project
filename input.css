@@ -32,11 +32,11 @@
     }
 
     .mark-yellow {
-        @apply bg-yellow-400  text-black;
+        @apply bg-yellow-400 text-black;
     }
 
     .mark-rose {
-        @apply bg-zinc-800  text-rose-400;
+        @apply bg-zinc-800 text-rose-400;
     }
     
     /* .mark-teal {
