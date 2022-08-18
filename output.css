@@ -433,6 +433,18 @@ mark {
   margin-bottom: 0.15rem;
 }
 
+a {
+  --tw-text-opacity: 1;
+  color: rgb(225 29 72 / var(--tw-text-opacity));
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(244 63 94 / var(--tw-text-opacity));
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -612,20 +624,8 @@ mark {
   height: 12rem;
 }
 
-.max-h-2 {
-  max-height: 0.5rem;
-}
-
-.max-h-10 {
-  max-height: 2.5rem;
-}
-
 .w-96 {
   width: 24rem;
-}
-
-.max-w-3xl {
-  max-width: 48rem;
 }
 
 .max-w-6xl {
@@ -823,6 +823,31 @@ mark {
   color: rgb(39 39 42 / var(--tw-text-opacity));
 }
 
+.text-rose-600 {
+  --tw-text-opacity: 1;
+  color: rgb(225 29 72 / var(--tw-text-opacity));
+}
+
+.text-rose-300 {
+  --tw-text-opacity: 1;
+  color: rgb(253 164 175 / var(--tw-text-opacity));
+}
+
+.text-rose-200 {
+  --tw-text-opacity: 1;
+  color: rgb(254 205 211 / var(--tw-text-opacity));
+}
+
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.no-underline {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -834,9 +859,19 @@ mark {
   background-color: rgb(244 63 94 / var(--tw-bg-opacity));
 }
 
+.hover\:text-rose-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(244 63 94 / var(--tw-text-opacity));
+}
+
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-rose-400:hover {
+  --tw-text-opacity: 1;
+  color: rgb(251 113 133 / var(--tw-text-opacity));
 }
 
 .hover\:shadow-lg:hover {

@@ -23,6 +23,10 @@
         margin-bottom: 0.15rem;
     }
 
+    a {
+        @apply underline text-rose-600 hover:text-rose-500
+    }
+
 }
 
 @layer components {
