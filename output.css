@@ -644,12 +644,20 @@ a:hover {
   max-width: 72rem;
 }
 
+.max-w-5xl {
+  max-width: 64rem;
+}
+
 .grow {
   flex-grow: 1;
 }
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
